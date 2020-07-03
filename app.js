@@ -17,6 +17,7 @@ Ext.application({
     // mainView: 'sandbox.view.main.Main'
     mainView: 'sandbox.view.entry.Entry',
     init: function() {
-        sessionStorage.setItem('version', `${Ext.manifest.version}_${Ext.manifest.env}`);
+        sessionStorage.setItem(
+            'version', `${Ext.manifest.version}_${Ext.manifest.env}`);
     }
 });
