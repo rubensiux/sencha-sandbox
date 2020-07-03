@@ -1,12 +1,12 @@
 {
   "name": "sandbox-cmd-alpha",
-  "version": "9.9.41",
+  "version": "9.9.42",
   "description": "This folder is primaril.",
   "main": "app.js",
   "scripts": {
     "commit": "git-cz",
     "postversion": "git push && git push --tags",
-    "postrelease": "git commit -a --amend --no-edit",
+    "postrelease": "git commit --amend --no-edit ./app.json",
     "release": "standard-version",
     "rel:major": "npm run release -- --release-as major",
     "rel:minor": "npm run release -- --release-as minor",
