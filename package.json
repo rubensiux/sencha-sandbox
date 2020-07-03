@@ -1,0 +1,21 @@
+{
+  "name": "sandbox-cmd-alpha",
+  "version": "1.0.0",
+  "description": "This folder is primaril.",
+  "main": "app.js",
+  "scripts": {
+    "pre-commit": "npm test",
+    "pre-push": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "git-cz": "^4.7.0",
+    "husky": "^4.2.5",
+    "standard-version": "^8.0.0"
+  }
+}

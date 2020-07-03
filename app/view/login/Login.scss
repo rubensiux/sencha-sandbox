@@ -1,0 +1,27 @@
+.componenteLogin {
+    background-color: #263238;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/22/12/02/butterfly-1611794_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .elementoTabPanel {
+        border-radius: 8px;
+    }
+    .elementoFormLogin {
+        // border-radius: 8px;
+        // padding: 16px;
+        // background-color: white;
+        .login-header {
+            // height: 100px;
+            text-align: center;
+            // > div {
+            //     height: 100px !important;
+            // }
+            i.far, i.fas {
+                font-size: 80px;
+                color: #263238;
+                line-height: 88px;
+            }
+        }
+    }
+}

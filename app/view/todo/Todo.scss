@@ -1,0 +1,10 @@
+.componenteTodo {
+    background-color: #263238;
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/11/20/35/lighthouse-5031977_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .x-btn-pressed {
+        background-color: var(--base-highlight-color) !important;
+    }
+}
