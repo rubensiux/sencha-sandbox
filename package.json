@@ -1,6 +1,6 @@
 {
   "name": "sandbox-cmd-alpha",
-  "version": "9.9.16",
+  "version": "9.9.17",
   "description": "This folder is primaril.",
   "main": "app.js",
   "scripts": {
@@ -13,9 +13,7 @@
     "rel:zero": "npm run release -- --release-as 0.0.0"
   },
   "standard-version": {
-    "scripts": {
-      "postbump": "node ./scriptVersion.js --port=1337"
-    }
+    "scripts": {}
   },
   "author": "",
   "license": "ISC",
