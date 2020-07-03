@@ -14,7 +14,7 @@
   },
   "standard-version": {
     "scripts": {
-      "postbump": "node ./scriptVersion.js --port=1337"
+      "postbump": "node ./scriptVersion.js --portasd=awefwaaefawfwaf"
     }
   },
   "author": "",
