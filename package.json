@@ -1,6 +1,6 @@
 {
   "name": "sandbox-cmd-alpha",
-  "version": "9.9.31",
+  "version": "9.9.32",
   "description": "This folder is primaril.",
   "main": "app.js",
   "scripts": {
