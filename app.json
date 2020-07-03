@@ -1,7 +1,7 @@
 {
 	"name": "sandbox",
 	"namespace": "sandbox",
-	"version": "9.9.42",
+	"version": "9.9.44",
 	"framework": "ext",
 	"env": "${build.environment}",
 	"requires": [
