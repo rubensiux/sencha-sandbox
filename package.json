@@ -1,6 +1,6 @@
 {
   "name": "sandbox-cmd-alpha",
-  "version": "9.9.26",
+  "version": "9.9.29",
   "description": "This folder is primaril.",
   "main": "app.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "cz-conventional-changelog": "^3.2.0",
     "git-cz": "^4.7.0",
     "husky": "^4.2.5",
-    "standard-version": "^8.0.0"
+    "standard-version": "^8.0.0",
+    "update-json-file": "^1.1.1"
   }
 }
