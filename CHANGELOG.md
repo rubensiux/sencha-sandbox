@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.9.44](///compare/v9.9.43...v9.9.44) (2020-07-03)
+
 ### [9.9.43](///compare/v9.9.38...v9.9.43) (2020-07-03)
 
 ### [9.9.42](///compare/v9.9.38...v9.9.42) (2020-07-03)
