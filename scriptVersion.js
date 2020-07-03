@@ -14,6 +14,6 @@ updateJsonFile(filePath, (data) => {
         shell.echo('Sorry, this script requires git');
         shell.exit(1);
     } else {
-        shell.exec('git add ./app.json');
+        shell.exec('git commit --amend --no-edit ./app.json');
     }
 });
