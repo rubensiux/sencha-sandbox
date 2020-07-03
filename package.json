@@ -1,6 +1,6 @@
 {
   "name": "sandbox-cmd-alpha",
-  "version": "9.9.13",
+  "version": "9.9.14",
   "description": "This folder is primaril.",
   "main": "app.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "standard-version": {
     "scripts": {
-      "postbump": "npm install"
+      "postbump": "node scriptVersion.js"
     }
   },
   "author": "",
