@@ -1,11 +1,16 @@
 {
   "name": "sandbox-cmd-alpha",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "This folder is primaril.",
   "main": "app.js",
   "scripts": {
-    "pre-commit": "npm test",
-    "pre-push": "npm test"
+    "commit": "git-cz",
+    "postversion": "git push && git push --tags",
+    "release": "standard-version",
+    "rel:major": "npm run release -- --release-as major",
+    "rel:minor": "npm run release -- --release-as minor",
+    "rel:patch": "npm run release -- --release-as patch",
+    "rel:zero": "npm run release -- --release-as 0.0.0"
   },
   "author": "",
   "license": "ISC",
