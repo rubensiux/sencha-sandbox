@@ -12,9 +12,6 @@
     "rel:patch": "npm run release -- --release-as patch",
     "rel:zero": "npm run release -- --release-as 0.0.0"
   },
-  "standard-version": {
-    "scripts": {}
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {},
