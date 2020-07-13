@@ -27,7 +27,7 @@
     "git-cz": "^4.7.0",
     "husky": "^4.2.5",
     "shelljs": "^0.8.4",
-    "standard-version": "^8.0.0",
+    "standard-version": "^8.0.1",
     "update-json-file": "^1.1.1"
   }
 }
